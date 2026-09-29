@@ -1,0 +1,14 @@
+# Python / Backend
+Backend/__pycache__/
+Backend/venv/
+Backend/*.db
+
+# Key / Credentials
+*.key
+
+# Flutter / Mobile
+smart_q/.idea/
+smart_q/.dart_tool/
+smart_q/build/
+smart_q/.flutter-plugins
+smart_q/.flutter-plugins-dependencies
