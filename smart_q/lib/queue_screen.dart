@@ -12,7 +12,9 @@ class QueueScreen extends StatefulWidget {
 class _QueueScreenState extends State<QueueScreen> {
   // Connect to the WebSocket broadcast endpoint
   final WebSocketChannel channel = WebSocketChannel.connect(
-    Uri.parse('ws://127.0.0.1:8000/ws/queue'),
+    final WebSocketChannel channel = WebSocketChannel.connect(
+  Uri.parse('https://dashboard.render.com/web/srv-datrv2g93c1s73bq6lug'),
+);,
   );
 
   List<dynamic> tokens = [];

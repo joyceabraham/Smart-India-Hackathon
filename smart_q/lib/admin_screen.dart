@@ -11,7 +11,7 @@ class AdminScreen extends StatefulWidget {
 }
 
 class _AdminScreenState extends State<AdminScreen> {
-  final String baseUrl = 'http://127.0.0.1:8000';
+  final String baseUrl = 'ws://127.0.0.1:8000';
   WebSocketChannel? _channel;
   List<dynamic> tokens = [];
   bool isLoading = true;
